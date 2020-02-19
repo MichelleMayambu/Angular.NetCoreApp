@@ -1120,11 +1120,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Administrator\\desktop\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\desktop\\DatingApp\\angular.NetCoreApp\\DatingApp.API.csproj",
       "projectName": "DatingApp.API",
-      "projectPath": "c:\\Users\\Administrator\\desktop\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
+      "projectPath": "C:\\Users\\Administrator\\desktop\\DatingApp\\angular.NetCoreApp\\DatingApp.API.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Administrator\\desktop\\DatingApp\\DatingApp.API\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\desktop\\DatingApp\\angular.NetCoreApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
