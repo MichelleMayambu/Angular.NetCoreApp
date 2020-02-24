@@ -1,4 +1,4 @@
-namespace DatingApp.API.Models
+namespace  Angular.NetCoreApp.Models
 {
     public class Values
     {
