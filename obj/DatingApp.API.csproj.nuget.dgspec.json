@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\desktop\\DatingApp\\angular.NetCoreApp\\DatingApp.API.csproj": {}
+    "C:\\Users\\Administrator\\desktop\\DatingApp\\Angular.netcoreapp\\DatingApp.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\desktop\\DatingApp\\angular.NetCoreApp\\DatingApp.API.csproj": {
+    "C:\\Users\\Administrator\\desktop\\DatingApp\\Angular.netcoreapp\\DatingApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\desktop\\DatingApp\\angular.NetCoreApp\\DatingApp.API.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\desktop\\DatingApp\\Angular.netcoreapp\\DatingApp.API.csproj",
         "projectName": "DatingApp.API",
-        "projectPath": "C:\\Users\\Administrator\\desktop\\DatingApp\\angular.NetCoreApp\\DatingApp.API.csproj",
+        "projectPath": "C:\\Users\\Administrator\\desktop\\DatingApp\\Angular.netcoreapp\\DatingApp.API.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\desktop\\DatingApp\\angular.NetCoreApp\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\desktop\\DatingApp\\Angular.netcoreapp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

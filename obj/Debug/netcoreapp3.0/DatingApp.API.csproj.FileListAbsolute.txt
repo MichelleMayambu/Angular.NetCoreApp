@@ -106,3 +106,11 @@ C:\Users\Administrator\desktop\DatingApp\angular.NetCoreApp\obj\Debug\netcoreapp
 C:\Users\Administrator\desktop\DatingApp\angular.NetCoreApp\obj\Debug\netcoreapp3.0\DatingApp.API.csproj.CopyComplete
 C:\Users\Administrator\desktop\DatingApp\angular.NetCoreApp\obj\Debug\netcoreapp3.0\DatingApp.API.dll
 C:\Users\Administrator\desktop\DatingApp\angular.NetCoreApp\obj\Debug\netcoreapp3.0\DatingApp.API.pdb
+C:\Users\Administrator\desktop\DatingApp\Angular.netcoreapp\bin\Debug\netcoreapp3.0\DatingSpa\angular.json
+C:\Users\Administrator\desktop\DatingApp\Angular.netcoreapp\bin\Debug\netcoreapp3.0\DatingSpa\e2e\tsconfig.json
+C:\Users\Administrator\desktop\DatingApp\Angular.netcoreapp\bin\Debug\netcoreapp3.0\DatingSpa\package-lock.json
+C:\Users\Administrator\desktop\DatingApp\Angular.netcoreapp\bin\Debug\netcoreapp3.0\DatingSpa\package.json
+C:\Users\Administrator\desktop\DatingApp\Angular.netcoreapp\bin\Debug\netcoreapp3.0\DatingSpa\tsconfig.app.json
+C:\Users\Administrator\desktop\DatingApp\Angular.netcoreapp\bin\Debug\netcoreapp3.0\DatingSpa\tsconfig.json
+C:\Users\Administrator\desktop\DatingApp\Angular.netcoreapp\bin\Debug\netcoreapp3.0\DatingSpa\tsconfig.spec.json
+C:\Users\Administrator\desktop\DatingApp\Angular.netcoreapp\bin\Debug\netcoreapp3.0\DatingSpa\tslint.json
