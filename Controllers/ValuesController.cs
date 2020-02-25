@@ -13,7 +13,7 @@ namespace DatingApp.API.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        //inject DataContext class
+        //using dependancy injection: inject DataContext class
         private readonly DataContext _context;
         public ValuesController(DataContext context)
         {

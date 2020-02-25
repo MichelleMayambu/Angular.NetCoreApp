@@ -1,8 +1,8 @@
 
-using  Angular.NetCoreApp.Models;
+using Angular.NetCoreApp.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace DatingApp.API.Data
+namespace Angular.NetCoreApp.Data
 {
     public class DataContext : DbContext
     {
