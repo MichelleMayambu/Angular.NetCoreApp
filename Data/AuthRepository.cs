@@ -8,6 +8,13 @@ namespace Angular.NetCoreApp.Data
 {
     public class AuthRepository : IAuthRepository
     {
+        //inject dataContext here
+        private readonly DataContext _context;
+        public AuthRepository(DataContext context)
+        {
+            _context = context;
+
+        }
         public Task<User> Login(string username, string password)
         {
             throw new System.NotImplementedException();
