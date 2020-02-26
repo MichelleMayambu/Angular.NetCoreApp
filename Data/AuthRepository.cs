@@ -19,15 +19,16 @@ namespace Angular.NetCoreApp.Data
         }
         public async Task<User> Login(string username, string password)
         {
+        //access username data in the database
            var user = await _context.Users.FirstOrDefaultAsync(x => x.UserName == username);
            
+           //check if user in the database matches the inputed user
            if (user == null)
-           return null;
+                return null;
 
-           if(VerifyPasswordHash(password, user.PasswordHash,user.PasswordSalt))
-           return null;
+           if(!VerifyPasswordHash(password, user.PasswordHash,user.PasswordSalt))
+                return null;
           
-
            return user;
         }
 
@@ -69,9 +70,12 @@ namespace Angular.NetCoreApp.Data
            
         }
 
-        public Task<bool> UserExists(string username)
+        public async Task<bool> UserExists(string username)
         {
-            throw new System.NotImplementedException();
+            if (await _context.Users.AnyAsync( x => x.UserName == username))
+             return true;
+
+            return false;
         }
     }
 }
