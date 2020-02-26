@@ -12,3 +12,4 @@ namespace Angular.NetCoreApp.Models
         public byte[] PasswordSalt {get; set;}
     }
 }
+
