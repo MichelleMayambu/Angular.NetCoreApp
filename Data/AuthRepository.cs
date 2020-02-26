@@ -70,6 +70,7 @@ namespace Angular.NetCoreApp.Data
            
         }
 
+    //check if users exists in the database
         public async Task<bool> UserExists(string username)
         {
             if (await _context.Users.AnyAsync( x => x.UserName == username))

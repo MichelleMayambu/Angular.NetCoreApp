@@ -31,8 +31,13 @@ namespace DatingApp.API
             (Configuration.GetConnectionString("DefaultConnection")));
             services.AddControllers();
             services.AddCors();  //add cross origin as a service
-        }
 
+            /* creates one instance for each http request but uses same instance
+           in other calls within the same request from the repository
+           this anables us to inject the interface and repository into our controllers*/
+            services.AddScoped<IAuthRepository,AuthRepository>();
+        }
+        
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
